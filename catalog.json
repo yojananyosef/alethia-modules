@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T15:56:45.559Z",
+  "generatedAt": "2026-08-08T18:00:59.556Z",
   "catalogSource": "Alethia Remote Registry (Oficial)",
   "modules": [
     {
@@ -13,9 +13,9 @@
       "license": "Public Domain",
       "year": 1909,
       "description": "Texto bíblico completo en español con códigos Strong normalizados, lemas y tokenización interlineal.",
-      "sizeBytes": 41615,
-      "sha256": "440091acaa9482abd7ccb2ea3569d33ddec8d576856d7a028759ea727c0f8d1d",
-      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/RV1909-0.1.0.abmod",
+      "sizeBytes": 31187485,
+      "sha256": "756b2db2b773017c5247c34e06c34e6a8100830f6b9258d19e9dcc7886da3cd1",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/RV1909-1.0.0.abmod",
       "dependencies": [
         "lexicon"
       ],
@@ -178,8 +178,8 @@
       "license": "Public Domain",
       "year": 1836,
       "description": "Referencias cruzadas exhaustivas que conectan profecías, citas del Nuevo Testamento y temas doctrinales versículo a versículo.",
-      "sizeBytes": 5120,
-      "sha256": "4b6845cb4957e8498f395f1710183b0ab12f00d6ef114b74e6f4777ee2d7cf7d",
+      "sizeBytes": 5072,
+      "sha256": "1cbf016e9194c7a00d779750a5ef9cd95a6b29f0bdfdc9b934864a6c4ef37b7d",
       "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/TSK-1.0.0.abmod",
       "dependencies": [],
       "hasStrongs": false,

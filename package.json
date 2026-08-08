@@ -1,0 +1,22 @@
+{
+  "name": "@alethia/modules-catalog",
+  "version": "1.0.0",
+  "description": "Repositorio maestro de distribución de módulos bíblicos (.abmod) para Alethia Bridge",
+  "main": "catalog.json",
+  "scripts": {
+    "build:catalog": "bun run scripts/build-catalog.ts",
+    "release": "bun run scripts/build-catalog.ts"
+  },
+  "keywords": [
+    "bible",
+    "exegesis",
+    "interlinear",
+    "strongs",
+    "hebrew",
+    "greek",
+    "alethia-bridge",
+    "abmod"
+  ],
+  "author": "Alethia Team",
+  "license": "MIT"
+}

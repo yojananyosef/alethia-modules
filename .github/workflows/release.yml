@@ -1,0 +1,26 @@
+name: Publicar Release de Módulos
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Crear GitHub Release y Subir .abmod
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Publicar Release con Binarios
+        uses: softprops/action-gh-release@v2
+        with:
+          files: binaries/*.abmod
+          name: Alethia Modules ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          generate_release_notes: true

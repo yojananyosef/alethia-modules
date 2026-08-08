@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T15:56:45.559Z",
+  "catalogSource": "Alethia Remote Registry (Oficial)",
+  "modules": [
+    {
+      "id": "RV1909",
+      "name": "Reina-Valera 1909 (con Strongs)",
+      "type": "bible",
+      "language": "es",
+      "version": "1.0.0",
+      "publisher": "Open Bibles / Dominio Público",
+      "license": "Public Domain",
+      "year": 1909,
+      "description": "Texto bíblico completo en español con códigos Strong normalizados, lemas y tokenización interlineal.",
+      "sizeBytes": 41615,
+      "sha256": "440091acaa9482abd7ccb2ea3569d33ddec8d576856d7a028759ea727c0f8d1d",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/RV1909-0.1.0.abmod",
+      "dependencies": [
+        "lexicon"
+      ],
+      "hasStrongs": true,
+      "hasMorphology": false,
+      "features": [
+        "66 libros canónicos completos",
+        "Códigos Strong en AT y NT",
+        "Alineación interlineal semántica",
+        "Índice FTS5 con búsqueda insensible a acentos"
+      ]
+    },
+    {
+      "id": "SBLGNT",
+      "name": "SBL Greek New Testament",
+      "type": "bible",
+      "language": "el",
+      "version": "1.0.0",
+      "publisher": "Society of Biblical Literature & Logos Bible Software",
+      "license": "CC BY 4.0 / CC-BY-SA 3.0",
+      "year": 2010,
+      "description": "Nuevo Testamento Griego crítico editado por Michael W. Holmes con análisis morfológico posicional Robinson, lemas y Strongs.",
+      "sizeBytes": 7971896,
+      "sha256": "64a396fbc29cd9a8a8a578a54431abe21de98b2329ca9abe03869de022bbcebd",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/SBLGNT-1.0.0.abmod",
+      "dependencies": [
+        "lexicon"
+      ],
+      "hasStrongs": true,
+      "hasMorphology": true,
+      "features": [
+        "27 libros del Nuevo Testamento",
+        "Morfología griega Robinson completa",
+        "Lemas griegos unicode",
+        "Aparato crítico e interlineal sincronizado"
+      ]
+    },
+    {
+      "id": "WLC",
+      "name": "Westminster Leningrad Codex",
+      "type": "bible",
+      "language": "he",
+      "version": "1.0.0",
+      "publisher": "J. Alan Groves Center for Advanced Biblical Research",
+      "license": "Public Domain",
+      "year": 2010,
+      "description": "Texto Masorético Hebreo completo con cantilación, morfología OSHM y códigos Strong hebreos.",
+      "sizeBytes": 18835761,
+      "sha256": "018859972da9ba4758aae71e2bf2a0d7f399b8696b645a2e13070d16c9fd33d7",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/WLC-1.0.0.abmod",
+      "dependencies": [
+        "lexicon"
+      ],
+      "hasStrongs": true,
+      "hasMorphology": true,
+      "features": [
+        "39 libros del Antiguo Testamento hebreo",
+        "Morfología OSHM detallada (3.400+ códigos)",
+        "Strongs hebreos (H1-H8674)",
+        "Texto consonántico y masorético vocalizado"
+      ]
+    },
+    {
+      "id": "NBV",
+      "name": "Nueva Biblia Viva (2008)",
+      "type": "bible",
+      "language": "es",
+      "version": "1.0.0",
+      "publisher": "Biblica Inc. / eBible.org",
+      "license": "CC BY-SA 4.0",
+      "year": 2008,
+      "description": "Paráfrasis moderna en español contemporáneo ideal para estudio comparativo y contraste exegético con textos literales.",
+      "sizeBytes": 30392311,
+      "sha256": "9a1a0eeadced812886b08f7946c32b5b104c88ce0775002456ce3743a06ceaf5",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/NBV-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
+      "features": [
+        "66 libros canónicos en lenguaje fluido",
+        "Vista paralela y comparación versículo a versículo",
+        "Búsqueda FTS5 optimizada"
+      ]
+    },
+    {
+      "id": "SPL",
+      "name": "Septuaginta LXX (Rahlfs-Hanhart)",
+      "type": "bible",
+      "language": "el",
+      "version": "1.0.0",
+      "publisher": "Deutsche Bibelgesellschaft / OpenScriptures",
+      "license": "Public Domain",
+      "year": 1935,
+      "description": "Traducción griega del Antiguo Testamento (Septuaginta) con lemas y códigos Strong para estudio del judaísmo del Segundo Templo.",
+      "sizeBytes": 33854317,
+      "sha256": "107974034bc34357a9457bc3cacabd646f9f2ea21f48f0fcff188e0b5656bbbb",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/SPL-1.0.0.abmod",
+      "dependencies": [
+        "lexicon"
+      ],
+      "hasStrongs": true,
+      "hasMorphology": true,
+      "features": [
+        "Antiguo Testamento en Griego Koiné",
+        "Conexión con citas del Nuevo Testamento",
+        "Alineación interlineal y lemas"
+      ]
+    },
+    {
+      "id": "TA",
+      "name": "Comentario Torres Amat (1825)",
+      "type": "commentary",
+      "language": "es",
+      "version": "1.0.0",
+      "publisher": "Félix Torres Amat",
+      "license": "Dominio Público",
+      "year": 1825,
+      "description": "Notas exegéticas, doctrinales e históricas versículo por versículo de la monumental obra del obispo Torres Amat.",
+      "sizeBytes": 165612,
+      "sha256": "afb83d4297730f21e45c95ee6dc1552f519ee735ebd9eee0ae9124b86c8bdd97",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/TA-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
+      "features": [
+        "Comentario exegético versículo a versículo",
+        "Panel de lectura lateral sincronizado con la referencia activa",
+        "Citas patrísticas y notas contextuales"
+      ]
+    },
+    {
+      "id": "lexicon",
+      "name": "Diccionario Strong + Morfología OSHM/Robinson",
+      "type": "lexicon",
+      "language": "es",
+      "version": "1.0.0",
+      "publisher": "OpenScriptures & MorphGNT Project",
+      "license": "CC BY 4.0",
+      "year": 2024,
+      "description": "Diccionario exegético completo: 8.674 entradas hebreas/arameas + 5.624 griegas con definiciones breves, derivaciones, transliteración y descripciones gramaticales.",
+      "sizeBytes": 1171464,
+      "sha256": "57aa9a5280ef1104426cba977902901e1dd296f11cafd716b7d53f18f8f6837c",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/lexicon-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": true,
+      "hasMorphology": true,
+      "features": [
+        "100% de cobertura de Strongs bíblicos (AT + NT)",
+        "Desglose gramatical en español para 3.400+ códigos hebreos y 450+ griegos",
+        "Glosas y dominios semánticos"
+      ]
+    },
+    {
+      "id": "TSK",
+      "name": "Treasury of Scripture Knowledge (TSK)",
+      "type": "crossref",
+      "language": "es",
+      "version": "1.0.0",
+      "publisher": "Canne, Browne, Scott & Torrey / Dominio Público",
+      "license": "Public Domain",
+      "year": 1836,
+      "description": "Referencias cruzadas exhaustivas que conectan profecías, citas del Nuevo Testamento y temas doctrinales versículo a versículo.",
+      "sizeBytes": 5120,
+      "sha256": "4b6845cb4957e8498f395f1710183b0ab12f00d6ef114b74e6f4777ee2d7cf7d",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/TSK-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
+      "features": [
+        "Referencias cruzadas temáticas y proféticas",
+        "Navegación y salto directo con 1 clic al pasaje citado",
+        "Soporte para Antiguo y Nuevo Testamento"
+      ]
+    }
+  ]
+}

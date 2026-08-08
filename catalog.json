@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T18:00:59.556Z",
+  "generatedAt": "2026-08-08T20:35:43.088Z",
   "catalogSource": "Alethia Remote Registry (Oficial)",
   "modules": [
     {
@@ -101,27 +101,47 @@
       ]
     },
     {
-      "id": "SPL",
-      "name": "Septuaginta LXX (Rahlfs-Hanhart)",
+      "id": "LXX",
+      "name": "Septuaginta LXX",
       "type": "bible",
       "language": "el",
       "version": "1.0.0",
-      "publisher": "Deutsche Bibelgesellschaft / OpenScriptures",
+      "publisher": "eBible.org / Dominio Público",
       "license": "Public Domain",
-      "year": 1935,
-      "description": "Traducción griega del Antiguo Testamento (Septuaginta) con lemas y códigos Strong para estudio del judaísmo del Segundo Templo.",
+      "year": 200,
+      "description": "Texto griego del Antiguo Testamento según la traducción de los Setenta (Septuaginta / LXX).",
+      "sizeBytes": 23551224,
+      "sha256": "0472e2a164be9b1a64d70231e6a61696d4316e21886099c14203487457e082ba",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/LXX-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
+      "features": [
+        "39 libros del Antiguo Testamento en Griego Antiguo",
+        "Texto koiné de los Setenta (Septuaginta)",
+        "Búsqueda FTS5 y vista interlineal sincronizada"
+      ]
+    },
+    {
+      "id": "SPL",
+      "name": "Biblia Platense (Straubinger)",
+      "type": "bible",
+      "language": "es",
+      "version": "1.0.0",
+      "publisher": "Mons. Juan Straubinger / Dominio Público",
+      "license": "Public Domain",
+      "year": 1948,
+      "description": "Traducción católica directa de los textos originales (hebreo en AT y griego en NT) por Mons. Juan Straubinger (1948).",
       "sizeBytes": 33854317,
       "sha256": "107974034bc34357a9457bc3cacabd646f9f2ea21f48f0fcff188e0b5656bbbb",
       "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.0.0/SPL-1.0.0.abmod",
-      "dependencies": [
-        "lexicon"
-      ],
-      "hasStrongs": true,
-      "hasMorphology": true,
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
       "features": [
-        "Antiguo Testamento en Griego Koiné",
-        "Conexión con citas del Nuevo Testamento",
-        "Alineación interlineal y lemas"
+        "66 libros canónicos en español",
+        "Traducción crítica directa de hebreo y griego",
+        "Búsqueda FTS5 optimizada"
       ]
     },
     {

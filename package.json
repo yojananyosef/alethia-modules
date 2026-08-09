@@ -1,6 +1,7 @@
 {
   "name": "@alethia/modules-catalog",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "type": "module",
   "description": "Repositorio maestro de distribución de módulos bíblicos (.abmod) para Alethia Bridge",
   "main": "catalog.json",
   "scripts": {

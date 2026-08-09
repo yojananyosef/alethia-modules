@@ -281,9 +281,15 @@ function buildParser(
         break;
       }
       case "chapter": {
-        // OSIS: <chapter osisID="Gen.1"/> (milestone) o <chapter osisID="Gen.1">…</chapter>
+        // OSIS: <chapter osisID="Gen.1"/> o <chapter osisRef="Gen.1" n="1" sID="..."/>
         // simple-xml: <chapter num="1">…</chapter>
-        const ch = Number(attrs.osisID ? attrs.osisID.split(".").pop() : attrs.num);
+        const ch = Number(
+          attrs.osisID
+            ? attrs.osisID.split(".").pop()
+            : attrs.osisRef
+              ? attrs.osisRef.split(".").pop()
+              : attrs.n ?? attrs.num,
+        );
         if (Number.isInteger(ch)) {
           closeVerse();
           state.chapter = ch;
@@ -304,12 +310,12 @@ function buildParser(
       }
       case "verse": {
         // OSIS: <verse sID="John.3.16"/> … <verse eID="John.3.16"/>
-        //       o <verse osisID="John.3.16">…</verse> (forma de elemento)
+        //       o <verse osisID="John.3.16" sID="..."/>
         // simple-xml: <verse num="1">…</verse>
         if (attrs.eID) {
           closeVerse();
         } else {
-          const ref = attrs.osisID ?? attrs.num;
+          const ref = attrs.osisID ?? attrs.osisRef ?? attrs.n ?? attrs.num;
           if (ref) {
             const parts = String(ref).split(".");
             const v = Number(parts[parts.length - 1]);
@@ -491,7 +497,7 @@ function importModule(sourcePath: string, moduleId: string, flags: ManifestFlags
   db.exec("DELETE FROM palabras_interlineal; DELETE FROM versiculos;");
 
   const insVerse = db.prepare(
-    `INSERT INTO versiculos (libro_id, capitulo, versiculo, texto_plano, texto_norm)
+    `INSERT OR REPLACE INTO versiculos (libro_id, capitulo, versiculo, texto_plano, texto_norm)
      VALUES (?, ?, ?, ?, ?)`,
   );
   const insWord = db.prepare(

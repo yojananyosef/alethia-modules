@@ -13,10 +13,9 @@
  * Uso: node scripts/derive-glosses.ts
  */
 import Database from "better-sqlite3";
-import { MODULES_DIR } from "../src/lib/db/sqlite.ts";
+import { ensureModuleDbReady, MODULES_DIR } from "../src/lib/db/sqlite.ts";
 import path from "node:path";
 
-const RV1909_DB = path.join(MODULES_DIR, "RV1909.db");
 const LEXICON_DB_PATH = path.join(MODULES_DIR, "lexicon.db");
 const MAX_FORM_LENGTH = 80;
 const MAX_WORDS = 6;
@@ -39,7 +38,8 @@ function normalizeForm(text: string): string {
 }
 
 function main(): void {
-  const source = new Database(RV1909_DB, { readonly: true });
+  const rvDbPath = ensureModuleDbReady("RV1909");
+  const source = new Database(rvDbPath, { readonly: true });
   const target = new Database(LEXICON_DB_PATH);
   target.exec(`
     CREATE TABLE IF NOT EXISTS glosas (

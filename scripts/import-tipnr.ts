@@ -183,7 +183,8 @@ function main(): void {
 
   const db = new Database(path.join(MODULES_DIR, "lexicon.db"));
   db.exec(`
-    CREATE TABLE IF NOT EXISTS nombres_propios (
+    DROP TABLE IF EXISTS nombres_propios;
+    CREATE TABLE nombres_propios (
       strong_id TEXT NOT NULL,
       nombre TEXT NOT NULL,
       tipo TEXT NOT NULL,
@@ -196,9 +197,9 @@ function main(): void {
       geo_lat REAL, geo_lng REAL,
       openbible TEXT
     );
-    CREATE INDEX IF NOT EXISTS idx_nombres_strong ON nombres_propios(strong_id);
+    CREATE INDEX idx_nombres_strong ON nombres_propios(strong_id);
+    CREATE INDEX idx_nombres_categoria ON nombres_propios(categoria);
   `);
-  db.exec("DELETE FROM nombres_propios;");
 
   const ins = db.prepare(`
     INSERT INTO nombres_propios

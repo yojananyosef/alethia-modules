@@ -1,9 +1,8 @@
-node_modules
 node_modules/
-src
 src/
-data
 data/
+.cache-*/
 .DS_Store
 *.tmp
 *.log
+

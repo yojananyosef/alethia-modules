@@ -6,18 +6,26 @@ Este repositorio desacopla el peso de los binarios bíblicos e interlineales del
 
 ---
 
-## 🏛 Módulos Oficiales Disponibles
+## 🏛 Módulos Oficiales Disponibles (16 Módulos)
 
 | ID | Tipo | Idioma | Versión | Tamaño | Descripción / Características |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **`RV1909`** | `bible` | Español | `1.0.0` | ~29.7 MB | Reina-Valera 1909 con códigos Strongs en AT y NT, alineación semántica e índice FTS5. |
+| **`KJV`** | `bible` | Inglés | `1.0.0` | ~31.2 MB | King James Version (1769 / Authorized Version) completa con índice FTS5 y concordancia. |
+| **`LUT1912`** | `bible` | Alemán | `1.0.0` | ~28.8 MB | Luther Bibel (1912), traducción histórica de la Reforma de Martín Lutero con FTS5. |
 | **`SBLGNT`** | `bible` | Griego (NT) | `1.0.0` | ~7.6 MB | Nuevo Testamento Griego crítico editado por Holmes con morfología Robinson y lemas. |
-| **`WLC`** | `bible` | Hebreo (AT) | `1.0.0` | ~17.9 MB | Westminster Leningrad Codex con morfología OSHM (3.400+ códigos) y Strongs hebreos. |
-| **`NBV`** | `bible` | Español | `1.0.0` | ~28.9 MB | Nueva Biblia Viva (2008) para estudio comparativo y lectura fluida en paralelo. |
-| **`SPL`** | `bible` | Griego (LXX) | `1.0.0` | ~32.2 MB | Septuaginta LXX con lemas griegos para estudio del Antiguo Testamento griego. |
+| **`WLC`** | `bible` | Hebreo (AT) | `1.0.0` | ~18.0 MB | Westminster Leningrad Codex con morfología OSHM (3.400+ códigos) y Strongs hebreos. |
+| **`OHB`** | `bible` | Hebreo (AT) | `1.0.0` | ~20.1 MB | Open Hebrew Bible con 8 capas interlineales, segmentación por raíces (*Shoresh*) y ETCBC. |
+| **`LXX`** | `bible` | Griego (LXX) | `1.0.0` | ~22.5 MB | Septuaginta LXX con texto koiné del Antiguo Testamento griego e índice FTS5. |
+| **`NBV`** | `bible` | Español | `1.0.0` | ~29.0 MB | Nueva Biblia Viva (2008) para estudio comparativo y lectura fluida en paralelo. |
+| **`SPL`** | `bible` | Español | `1.0.0` | ~32.3 MB | Biblia Platense (Mons. Juan Straubinger 1948), traducción crítica directa de originales. |
+| **`lexicon`** | `lexicon` | Grk/Heb/Es | `1.1.0` | ~3.3 MB | Léxico Tyndale/STEPBible (TBESG + TBESH), 20.800+ entradas, 2.380+ TIPNR GPS y 5.290+ RMAC. |
+| **`EASTON`** | `dictionary` | Inglés | `1.0.0` | ~2.4 MB | Easton's Bible Dictionary con 3.960+ artículos enciclopédicos de teología y arqueología con FTS5. |
+| **`MHC`** | `commentary` | Inglés | `1.0.0` | ~2.7 MB | Matthew Henry Concise Commentary con notas versículo a versículo para 31.060 pasajes. |
 | **`TA`** | `commentary` | Español | `1.0.0` | ~0.16 MB | Comentario exegético versículo a versículo de Félix Torres Amat (1825). |
 | **`TSK`** | `crossref` | Español | `1.0.0` | ~5.0 KB | Treasury of Scripture Knowledge con referencias cruzadas proféticas y temáticas. |
-| **`lexicon`** | `lexicon` | Grk/Heb | `1.0.0` | ~1.1 MB | Diccionario Strong completo (8.674 H + 5.624 G) y parsing gramatical en español. |
+| **`MT-LXX`** | `crossref` | Hebreo/Griego | `1.0.0` | ~15.5 MB | Alineación paralela palabra a palabra Masorético ↔ Septuaginta (498.000+ pares). |
+| **`SPURGEON-ME`** | `devotion` | Inglés | `1.0.0` | ~0.62 MB | Devocional diario de Charles Spurgeon: Morning and Evening (732 lecturas para 366 días). |
 
 ---
 

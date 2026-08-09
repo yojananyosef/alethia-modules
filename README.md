@@ -6,7 +6,7 @@ Este repositorio desacopla el peso de los binarios bíblicos e interlineales del
 
 ---
 
-## 🏛 Módulos Oficiales Disponibles (16 Módulos)
+## 🏛 Módulos Oficiales Disponibles (19 Módulos)
 
 | ID | Tipo | Idioma | Versión | Tamaño | Descripción / Características |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -22,6 +22,9 @@ Este repositorio desacopla el peso de los binarios bíblicos e interlineales del
 | **`lexicon`** | `lexicon` | Grk/Heb/Es | `1.1.0` | ~3.3 MB | Léxico Tyndale/STEPBible (TBESG + TBESH), 20.800+ entradas, 2.380+ TIPNR GPS y 5.290+ RMAC. |
 | **`EASTON`** | `dictionary` | Inglés | `1.0.0` | ~2.4 MB | Easton's Bible Dictionary con 3.960+ artículos enciclopédicos de teología y arqueología con FTS5. |
 | **`MHC`** | `commentary` | Inglés | `1.0.0` | ~2.7 MB | Matthew Henry Concise Commentary con notas versículo a versículo para 31.060 pasajes. |
+| **`LUTHER`** | `commentary` | Inglés | `1.0.0` | ~18.4 MB | Comentarios y escritos expositivos de Martín Lutero (31.081 notas en AT y NT). |
+| **`CALVIN`** | `commentary` | Inglés | `1.0.0` | ~12.6 MB | Calvin's Collected Commentaries (13.762 notas monumentales en más de 45 libros bíblicos). |
+| **`WESLEY`** | `commentary` | Inglés | `1.0.0` | ~2.2 MB | John Wesley's Explanatory Notes on the Whole Bible (18.054 notas versículo a versículo). |
 | **`TA`** | `commentary` | Español | `1.0.0` | ~0.16 MB | Comentario exegético versículo a versículo de Félix Torres Amat (1825). |
 | **`TSK`** | `crossref` | Español | `1.0.0` | ~5.0 KB | Treasury of Scripture Knowledge con referencias cruzadas proféticas y temáticas. |
 | **`MT-LXX`** | `crossref` | Hebreo/Griego | `1.0.0` | ~15.5 MB | Alineación paralela palabra a palabra Masorético ↔ Septuaginta (498.000+ pares). |

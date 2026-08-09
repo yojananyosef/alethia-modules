@@ -91,6 +91,21 @@ const MODULE_FEATURES: Record<string, string[]> = {
     "732 lecturas devocionales diarias (366 días x mañana y noche)",
     "Pasaje clave, texto y meditación espiritual de Charles Spurgeon",
   ],
+  LUTHER: [
+    "31.000+ notas y tratados expositivos de Martín Lutero",
+    "Comentarios clásicos en Gálatas, Romanos, Sermón del Monte y Salmos",
+    "Panel lateral sincronizado con la lectura bíblica",
+  ],
+  CALVIN: [
+    "13.700+ notas exegéticas monumentales de Juan Calvino",
+    "Exégesis verso a verso en más de 45 libros del AT y NT",
+    "Referencia teológica histórica de la Reforma",
+  ],
+  WESLEY: [
+    "18.000+ notas explicativas de Juan Wesley para AT y NT",
+    "Comentarios devocionales y doctrinales concisos verso a verso",
+    "Panel lateral sincronizado con la lectura bíblica",
+  ],
 };
 
 function main(): void {

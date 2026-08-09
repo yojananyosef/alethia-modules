@@ -1,8 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T18:56:19.126Z",
+  "generatedAt": "2026-08-09T20:27:56.913Z",
   "catalogSource": "Alethia Remote Registry (Oficial)",
   "modules": [
+    {
+      "id": "CALVIN",
+      "name": "Calvin's Collected Commentaries",
+      "type": "commentary",
+      "language": "en",
+      "version": "1.0.0",
+      "publisher": "John Calvin (1540-1564) / Calvin Translation Society / CCEL",
+      "license": "Public Domain",
+      "year": 1564,
+      "description": "Monumental obra exegética y teológica de Juan Calvino que abarca más de 45 libros bíblicos del Antiguo y Nuevo Testamento con análisis versículo a versículo.",
+      "sizeBytes": 13246016,
+      "sha256": "0536f7c7b68e5b61195b7f48e6b19f61a2055fd0ebf0cbb0bc7e59114434697a",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.1.0/CALVIN-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
+      "features": [
+        "13.700+ notas exegéticas monumentales de Juan Calvino",
+        "Exégesis verso a verso en más de 45 libros del AT y NT",
+        "Referencia teológica histórica de la Reforma"
+      ]
+    },
     {
       "id": "EASTON",
       "name": "Easton's Bible Dictionary (1897)",
@@ -90,6 +112,28 @@
         "66 libros canónicos en alemán histórico",
         "Traducción de la Reforma de Martín Lutero (1912)",
         "Búsqueda FTS5 de alta velocidad"
+      ]
+    },
+    {
+      "id": "LUTHER",
+      "name": "Luther's Commentary on Selected Bible Passages",
+      "type": "commentary",
+      "language": "en",
+      "version": "1.0.0",
+      "publisher": "Martin Luther / Lenker, Hay, Holman & Graebner (1892-1949)",
+      "license": "Public Domain",
+      "year": 1905,
+      "description": "Comentario y escritos expositivos de Martín Lutero versículo por versículo: Sermón del Monte, Gálatas, Romanos, Salmos y pasajes selectos.",
+      "sizeBytes": 19330281,
+      "sha256": "b3fcafbe4546eb3ef9eea83e82662006b352cd5ee71c5d2aed18c6fd8cc3448b",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.1.0/LUTHER-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
+      "features": [
+        "31.000+ notas y tratados expositivos de Martín Lutero",
+        "Comentarios clásicos en Gálatas, Romanos, Sermón del Monte y Salmos",
+        "Panel lateral sincronizado con la lectura bíblica"
       ]
     },
     {
@@ -338,6 +382,28 @@
       "features": [
         "Referencias cruzadas temáticas y proféticas exhaustivas",
         "Navegación y salto directo con 1 clic al pasaje citado"
+      ]
+    },
+    {
+      "id": "WESLEY",
+      "name": "John Wesley's Explanatory Notes",
+      "type": "commentary",
+      "language": "en",
+      "version": "1.0.0",
+      "publisher": "John Wesley (1754-1765) / Public Domain",
+      "license": "Public Domain",
+      "year": 1765,
+      "description": "Notas explicativas y pastorales de Juan Wesley sobre el Antiguo y Nuevo Testamento versículo por versículo.",
+      "sizeBytes": 2297536,
+      "sha256": "b748289c6355dd3468f6402ca0f202dd70c25a73ca71c208fec499020d351afb",
+      "downloadUrl": "https://github.com/yojananyosef/alethia-modules/releases/download/v1.1.0/WESLEY-1.0.0.abmod",
+      "dependencies": [],
+      "hasStrongs": false,
+      "hasMorphology": false,
+      "features": [
+        "18.000+ notas explicativas de Juan Wesley para AT y NT",
+        "Comentarios devocionales y doctrinales concisos verso a verso",
+        "Panel lateral sincronizado con la lectura bíblica"
       ]
     },
     {
